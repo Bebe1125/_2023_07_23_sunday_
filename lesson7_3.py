@@ -1,7 +1,7 @@
 import random #隨機亂數
 
 #定義funtion
-def play_game():  #def可把裡面重複執行的程式收合，畫面看起來較簡潔
+def play_game() -> None:  #def可把裡面重複執行的程式收合，畫面看起來較簡潔(-> None可以不用寫)
     min = 1
     max = 100
     target = random.randint(min,max) #設定亂數範圍
