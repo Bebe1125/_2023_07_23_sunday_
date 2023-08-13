@@ -27,7 +27,7 @@ while True:
         else:
             print("請輸入提示範圍內的數字")
 
-    play_again = input("還要繼續嗎?(y,n)")
+    play_again = input("還要繼續嗎?(y,n)") #猜對後，詢問要不要再玩
     if play_again == "n":
         break
 print("遊戲結束")
