@@ -2,8 +2,8 @@ import random #隨機亂數
 min = 1
 max = 100
 target = random.randint(min,max) #設定亂數範圍
-print(target)
-count = 0
+print(target)  #作弊 先秀出答案
+count = 0  #猜了幾次
 print("============猜數字遊戲============\n\n")  # \n 斷行
 while True:  #馬上進入迴圈
     keyin = int(input(f"猜數字範圍{min}~{max}:"))
