@@ -1,6 +1,5 @@
 import random #隨機亂數
 
-
 while True:
     min = 1
     max = 100
@@ -28,8 +27,7 @@ while True:
         else:
             print("請輸入提示範圍內的數字")
 
-    print("遊戲結束")
-        play_again = input("還要繼續嗎?(y,n)")
-        if play_again == "n":
-            break
+    play_again = input("還要繼續嗎?(y,n)")
+    if play_again == "n":
+        break
 print("遊戲結束")
