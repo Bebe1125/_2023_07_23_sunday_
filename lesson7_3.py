@@ -1,6 +1,7 @@
 import random #隨機亂數
 
-while True:
+#定義funtion
+def play_game():
     min = 1
     max = 100
     target = random.randint(min,max) #設定亂數範圍
@@ -27,6 +28,9 @@ while True:
         else:
             print("請輸入提示範圍內的數字")
 
+while True:
+    #呼叫funtion
+    play_game()
     play_again = input("還要繼續嗎?(y,n)") #猜對後，詢問要不要再玩
     if play_again == "n":
         break
