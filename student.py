@@ -23,3 +23,4 @@ def get_students(student_num:int) -> list[list]:
         one_student = [name] + one_student
         students.append(one_student)
     return students
+
