@@ -1,5 +1,6 @@
+
 import random
-def __get_all_names() -> list[list]:
+def __get_all_names() -> list[str]:
     with open('names.txt',mode='r',encoding='utf-8') as file:
         names:list[str] = []
         for line in file:
